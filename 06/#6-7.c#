@@ -1,0 +1,119 @@
+Last login: Sun May 20 19:49:34 on ttys000
+kounokeita-no-MacBook-Air:~ kawanookeita$ cd /Users/kawanookeita/CompBio2018/CompBio2018Code/06 
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-4.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-4.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+a:1.872878,b:3.520647
+  kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+  kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+  6-5.c:24:19: error: array subscript is not an integer
+  I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                  ^~
+		  6-5.c:24:24: error: array subscript is not an integer
+		  I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                       ^~
+		       6-5.c:24:30: error: array subscript is not an integer
+		       I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                             ^~
+			     6-5.c:24:28: error: use of undeclared identifier 'rI'
+			     I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                           ^
+			     6-5.c:25:20: error: array subscript is not an integer
+			     R[1]=R[0]+r*I[t];
+                   ^~
+		   6-5.c:30:9: warning: implicit declaration of function 'fpprintf' is invalid in
+      C99 [-Wimplicit-function-declaration]
+		   fpprintf(fp,"%f,%f,%f\n",t,x[0],x[1]);
+        ^
+		   6-5.c:30:36: error: use of undeclared identifier 'x'
+		   fpprintf(fp,"%f,%f,%f\n",t,x[0],x[1]);
+                                   ^
+		   6-5.c:30:41: error: use of undeclared identifier 'x'
+		   fpprintf(fp,"%f,%f,%f\n",t,x[0],x[1]);
+                                        ^
+1 warning and 7 errors generated.
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+6-5.c:24:19: error: array subscript is not an integer
+I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                  ^~
+		  6-5.c:24:24: error: array subscript is not an integer
+		  I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                       ^~
+		       6-5.c:24:30: error: array subscript is not an integer
+		       I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                             ^~
+			     6-5.c:24:28: error: use of undeclared identifier 'rI'
+			     I[1]=dt*(b*S[t]*I[t]-rI[t])+I[0];
+                           ^
+			     6-5.c:25:20: error: array subscript is not an integer
+			     R[1]=R[0]+r*I[t];
+                   ^~
+		   6-5.c:30:9: warning: implicit declaration of function 'fpprintf' is invalid in
+      C99 [-Wimplicit-function-declaration]
+		   fpprintf(fp,"%f,%f,%f,%f\n",t,S[0],I[0],R[0]);
+        ^
+1 warning and 5 errors generated.
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+6-5.c:26:28: error: use of undeclared identifier 'rI'
+I[1]=dt*(b*S[0]*I[0]-rI[0])+I[0];
+                           ^
+6-5.c:32:9: warning: implicit declaration of function 'fpprintf' is invalid in
+      C99 [-Wimplicit-function-declaration]
+fpprintf(fp,"%f,%f,%f,%f\n",t,S[0],I[0],R[0]);
+        ^
+1 warning and 1 error generated.
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+^[[A^[[Akounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+       kounokeita-no-MacBook-Air:06 kawanookeita$ 
+       [’Éü’¸µ’Æü’»þ2018/05/23 9:57:06]
+       Last login: Wed May 23 09:56:21 on console
+       kounokeita-no-MacBook-Air:06 kawanookeita$ 
+       [’Éü’¸µ’Æü’»þ2018/05/23 12:26:15]
+       Last login: Wed May 23 12:25:48 on console
+       kounokeita-no-MacBook-Air:06 kawanookeita$ 
+       [’Éü’¸µ’Æü’»þ2018/05/27 15:50:47]
+       Last login: Sun May 27 15:36:30 on console
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-4.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-5.c
+       kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-6.c
+
+       R[0]=0.5;ev)--------------------- main(void){
+              ^
+1 error generated.
+  kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-6.c
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-6.c
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+	  kounokeita-no-MacBook-ook-Air:06 kawanookeita$ ./a.out
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-6.c
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ gcc 6-6.c
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ ./a.out
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ emaceita$ ./a.out
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-6.c
+	  kounokeita-no-MacBook-Air:06 kawanookeita$ emacs 6-6.c
+
+	  S[0]=1000.0;
+	N=1;
+	for(i=1;i<=1000;i++){
+	  x1=(((double)rand()+
